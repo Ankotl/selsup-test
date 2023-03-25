@@ -1,0 +1,31 @@
+/* NOTICE: Do not add to git ignore. This helps other developer with vsCode project settings */
+
+{
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "prettier.configPath": ".prettierrc",
+
+  "stylelint.configFile": ".stylelintrc.json",
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "less", "postcss", "scss"],
+  "cSpell.words": [
+    "Назначение",
+    "clsx",
+    "Timecode"
+  ]
+}
